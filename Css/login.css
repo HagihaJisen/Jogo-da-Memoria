@@ -1,0 +1,42 @@
+body{
+    background-image: url(../images/Memoria.png);
+}
+.login-form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.Login_Button{
+    padding: auto;
+    background-color: aqua;
+    border: 2px solid #222;
+    height: 19px;
+    width: 65px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+.Login_Button:disabled{
+    background-color: rgb(140, 82, 255);
+    color: #222;
+    cursor: auto;
+}
+.login_header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Login_input{
+    border: 2px solid #222;
+    height: 20px;
+}
+
+
+
+#h1{
+    align-items: center;
+    text-align: center;
+    height: 40vh ;
+}
